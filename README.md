@@ -1,9 +1,9 @@
-# Widgets & Payments API (stdlib-only)
+# Widgets & Payments API (stdlib mostly)
 
 This is a self-contained Go HTTP API server that uses only the standard library and in-memory storage with mutexes. It exposes endpoints for Widgets and idempotent Payments.
 
 ## Requirements
-- Go 1.20+ (no external dependencies).
+- Go 1.20+ (almost no external dependencies).
 
 ## Run the server
 ```bash
